@@ -1,0 +1,12 @@
+{
+  "name": "adil-cicd-project",
+  "version": "1.0.0",
+  "description": "Adil CI/CD pipeline demo - Jenkins + Docker Hub + GitHub webhook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "author": "Adil Khan Swati",
+  "license": "ISC"
+}
