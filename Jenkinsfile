@@ -6,8 +6,8 @@ pipeline {
 
     environment {
         IMAGE = 'adil-cicd-project'
-        // 'dockerhub' credential -> REGISTRY_USR / REGISTRY_PSW
-        REGISTRY = credentials('dockerhub')
+        // 'dockerhub-adil' credential -> REGISTRY_USR / REGISTRY_PSW
+        REGISTRY = credentials('dockerhub-adil')
     }
 
     stages {
